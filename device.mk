@@ -169,3 +169,7 @@ PRODUCT_COPY_FILES += \
 # aircrack-ng except airmon-ng
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/rootdir/aircrack,$(TARGET_COPY_OUT_SYSTEM)/bin)
+    
+# busybox
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/rootdir/busybox-meefik,$(TARGET_COPY_OUT_SYSTEM)/bin)
