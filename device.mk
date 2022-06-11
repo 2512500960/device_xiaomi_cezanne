@@ -155,16 +155,16 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/rootdir/etc/firmware,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/firmware)
 
 # Wireless tools
-# PRODUCT_PACKAGES +=\
-#     iwconfig \
-#     iwlist \
-#     iwpriv \
-#     iwspy \
-#     iwgetid \
-#     iwevent \
-#     ifrename \
-#     macaddr \
-#     iwmulticall    
+ PRODUCT_PACKAGES +=\
+     iwconfig \
+     iwlist \
+     iwpriv \
+     iwspy \
+     iwgetid \
+     iwevent \
+     ifrename \
+     macaddr \
+     iwmulticall    
     
 # aircrack-ng except airmon-ng
 PRODUCT_COPY_FILES += \
