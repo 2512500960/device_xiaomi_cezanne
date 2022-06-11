@@ -18,3 +18,4 @@
 // git clone https://github.com/coolscode/kernel_xiaomi_mt6885 kernel/xiaomi/mt6885
 // git clone https://github.com/coolscode/proprietary_vendor_xiaomi_cezanne vendor/xiaomi/cezanne
 // If you want to save some space, use "--depth=1"
+// git clone https://github.com/2512500960/android_wireless_tools.git external/wireless-tools
